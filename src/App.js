@@ -1,15 +1,18 @@
 import React from 'react';
-import Nav from './components/Nav';
-import About from './components/About';
-import Cards from './components/Cards';
+// import Nav from './components/Nav';
+// import About from './components/About';
+// import Cards from './components/Cards';
+import Home from './components/Home';
+
 function App() {
 
   return (
     <div>
-      <Nav />
+      {/* <Nav /> */}
       <main>
-          <About />  
-          <Cards />
+        <Home />
+        {/* <About />  
+        <Cards /> */}
       </main>
     </div>
   );
