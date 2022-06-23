@@ -3,8 +3,8 @@ function Cards(){
         <div>
             <header>
         <h1>
-        <a href="/">
-            Portfolio</a>
+        <p >
+            Portfolio</p>
         </h1>
         <nav>
             <ul>

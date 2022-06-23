@@ -25,7 +25,7 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-image: url("/Assets/images/hero-bg.jpg");
+  background-image: url('../src/Assets/images/hero-bg.jpg');
   background-size: cover;
   background-position: 80%;
   background-attachment: fixed;
@@ -101,7 +101,7 @@ section {
 /* hero style start */
 
 .hero {
-  background-image: url("/Assets/images/hero-bg.jpg");
+  background-image: url("../src/Assets/images/hero-bg.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
