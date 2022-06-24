@@ -1,6 +1,6 @@
 import React from 'react'
 import resume from '../../Assets/portfolio-resume.pdf'
-
+import pflImg from '../../Assets/images/profile-img.png'
 import codePrep from '../../Assets/images/code-prep.png'
 import timeKiller from '../..//Assets/images/time-killer-3000.png'
 
@@ -37,7 +37,7 @@ function Cards(){
 
             <section id="about-me" class="intro">
                 <div class="flex-row left" >
-
+                <img class="rounded" src= {pflImg} alt="" />
                     <div>
                         <h2 class="section-title primary-border">About Me</h2>
                         <br />
