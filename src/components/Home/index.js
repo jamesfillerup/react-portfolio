@@ -1,8 +1,9 @@
 import React from 'react'
 import resume from '../../Assets/portfolio-resume.pdf'
-import profileImg from '../../Assets/images/profile-img.png'
+import pflImg from '../../Assets/images/profile-img.PNG'
 import codePrep from '../../Assets/images/code-prep.png'
-import timeKiller from '../..//Assets/images/time-killer-3000.png'
+import timeKiller from '../../Assets/images/time-killer-3000.png'
+import stacked from '../../Assets/images/stacked.png'
 
 function Cards(){
     return(
@@ -37,7 +38,7 @@ function Cards(){
 
             <section id="about-me" class="intro">
                 <div class="flex-row left" >
-                    <img src={profileImg}  alt="profile-img"/>
+                <img class="rounded" src= {pflImg} alt="" />
                     <div>
                         <h2 class="section-title primary-border">About Me</h2>
                         <br />
@@ -88,6 +89,24 @@ function Cards(){
                                                 </h3>
                                                 <p>
                                                     Code Prep is a way for you to find interview questions to practice on as well as to see others comments on interview challenges. 
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4 mt-4">
+                                    <div class=" card h-100">
+                                        <div class="">
+                                            <a href="https://exercise-mernapp.herokuapp.com/">
+                                                <img class="card-img-top img-center rounded mx-auto d-block" src= {stacked}
+                                                    alt="" />
+                                            </a>
+                                            <div class="card-body">
+                                                <h3>
+                                                    Stacked
+                                                </h3>
+                                                <p>
+                                                This is a simple exercise tracker for developers to promote better health. It tracks their exercises so that they can build their own routine.
                                                 </p>
                                             </div>
                                         </div>
