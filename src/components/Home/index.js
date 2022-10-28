@@ -11,8 +11,8 @@ function Cards(){
         <div>
             <header>
                 <h1>
-                <p >
-                    Portfolio</p>
+                <a href="/" >
+                    Portfolio</a>
                 </h1>
                 <nav>
                     <ul>
@@ -26,7 +26,6 @@ function Cards(){
                             <a href="#contact-me">Contact Me</a>
                         </li>
                         <li>
-                        
                         <a href= {resume} >Resume</a>
                         </li>
                     </ul>
@@ -44,7 +43,13 @@ function Cards(){
                         <h2 class="section-title primary-border">About Me</h2>
                         <br />
                         <p>
-                        I have a passion for creating. For years I've been working manufacturing and I find that the functionality is of the greatest importance. I have now been extending that into a digital world. 
+                            I'm a product manager with many years of experience building strong teams that can problem solve and work well in a collaborative environment. 
+                        </p><br />
+                        <p>
+                            I have experience in the following roles: Project Management - Product Management - Quality Assurance Manager - Purchasing - Sales
+                        </p><br />
+                        <p>
+                            As a Frontend Developer I'm proficient in: React - JavaScript - Shopify Liquid - eCommerce - HandlebarsJS - HTML - CSS - Sequelize - MySQL - NodeJS
                         </p>
                     </div>
                 </div>
@@ -61,7 +66,7 @@ function Cards(){
                             <div class="row g-3">
                                 <div class="col-12 col-md-6 col-lg-4 mt-4">
                                     <div class=" card h-100">
-                                        <div class="">
+                                        <div>
                                             <a href="https://Nesnah1307.github.io/time-killer-3000/">
                                                 <img class="card-img-top img-center rounded mx-auto d-block" src= {timeKiller}
                                                     alt="" />
@@ -71,7 +76,7 @@ function Cards(){
                                                     Time Killer 3000
                                                 </h3>
                                                 <p>
-                                                A web page for all things time wasting!
+                                                A web page for all things time wasting! This has joke API's that generate a new joke for you when you are looking for a laugh.
                                                 </p>
                                             </div>
                                         </div>
