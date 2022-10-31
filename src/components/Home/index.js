@@ -1,7 +1,7 @@
 import React from 'react'
-import resume from '../../Assets/portfolio-resume.pdf'
+// import resume from '../../Assets/portfolio-resume.pdf'
 
-import pflImg from '../../Assets/images/profile-img.png'
+// import pflImg from '../../Assets/images/profile-img.png'
 import codePrep from '../../Assets/images/code-prep.png'
 import timeKiller from '../../Assets/images/time-killer-3000.png'
 import stacked from '../../Assets/images/stacked.png'
@@ -9,7 +9,7 @@ import stacked from '../../Assets/images/stacked.png'
 function Cards(){
     return(
         <div>
-            <header>
+            {/* <header>
                 <h1>
                 <a href="/" >
                     Portfolio</a>
@@ -30,13 +30,13 @@ function Cards(){
                         </li>
                     </ul>
                 </nav>
-            </header>
+            </header> */}
 
-            <section class="hero">
+            <section className="hero">
                     <h2>James Fillerup</h2>
             </section>
 
-            <section id="about-me" class="intro">
+            {/* <section id="about-me" class="intro">
                 <div class="flex-row left" >
                 <img class="rounded" src= {pflImg} alt="" />
                     <div>
@@ -53,7 +53,7 @@ function Cards(){
                         </p>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <section id="my-work" class="flex-container">
                 <div class="container">

@@ -1,20 +1,21 @@
 import React from 'react';
 
-// import Nav from './components/Nav';
-// import About from './components/About';
+import Nav from './components/Nav';
+import About from './components/About';
 // import Cards from './components/Cards';
-import Home from './components/Home';
+// import Home from './components/Home';
+import Hero from './components/Hero';
 
 
 function App() {
 
   return (
-    <div>
-      {/* <Nav /> */}
+    <div className='wrapper'>
+      <Nav />
       <main>
-        <Home />
-        {/* <About />  
-        <Cards /> */}
+        <Hero />
+        <About />  
+        {/* <Cards /> */}
       </main>
     </div>
   );

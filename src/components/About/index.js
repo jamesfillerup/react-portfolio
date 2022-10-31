@@ -1,33 +1,29 @@
 import React from 'react'
 // import coverImage from "../../assets/cover/cover-image.jpg";
-
+import pflImg from '../../Assets/images/profile-img.png'
 function About() {
 
   return (
 
-    // <section id="about-me" class="intro">
-    //     <div class="flex-row left" >
-    //         {/* <img src="./Assets/images/profile-img.PNG"  alt="profile-img"> */}
-    //         <div>
-    //             <h2 class="section-title primary-border">About Me</h2>
-    //             <br />
-    //             <p>
-    //             I have a passion for creating. For years I've been working manufacturing and I find that the functionality is of the greatest importance. I have now been extending that into a digital world. 
-    //             </p>
-    //         </div>
-    //     </div>
-    // </section>
-
-
-    <section className="my-5" >
-      <h1 id="about">About Me</h1>
-      {/* <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" /> */}
-      <div className="my-2">
-        <p>
-        I have a passion for creating. For years I've been working manufacturing and I find that the functionality is of the greatest importance. I have now been extending that into a digital world.
-      </p>
-      </div>
-    </section>
+  <section id="about-me" className="intro">
+    <div className="flex-row left" >
+      <img className="rounded" src= {pflImg} alt="" />
+        <div>
+          <h2 className="section-title primary-border">About Me</h2>
+            <br />
+            <p>
+                I'm a product manager with many years of experience building strong teams that can problem solve and work well in a collaborative environment. 
+            </p><br />
+            <p>
+                I have experience in the following roles: Project Management - Product Management - Quality Assurance Manager - Purchasing - Sales
+            </p><br />
+            <p>
+                As a Frontend Developer I'm proficient in: React - JavaScript - Shopify Liquid - eCommerce - HandlebarsJS - HTML - CSS - Sequelize - MySQL - NodeJS
+            </p>
+        </div>
+    </div>
+  </section>
+    
   )
 }
 
