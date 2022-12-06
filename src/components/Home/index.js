@@ -1,10 +1,10 @@
 import React from 'react'
-// import resume from '../../Assets/portfolio-resume.pdf'
+// import resume from '../../../public/assets/portfolio-resume.pdf'
 
-// import pflImg from '../../Assets/images/profile-img.png'
-import codePrep from '../../Assets/images/code-prep.png'
-import timeKiller from '../../Assets/images/time-killer-3000.png'
-import stacked from '../../Assets/images/stacked.png'
+// import pflImg from '../../../public/assets/images/profile-img.png'
+import codePrep from '../../../public/assets/images/code-prep.png'
+import timeKiller from '../../../public/assets/images/time-killer-3000.png'
+import stacked from '../../../public/assets/images/stacked.png'
 
 function Cards(){
     return(

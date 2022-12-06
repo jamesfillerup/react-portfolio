@@ -2,7 +2,7 @@ import React from 'react';
 
 import Nav from './components/Nav';
 import About from './components/About';
-// import Cards from './components/Cards';
+import Card from './components/Card';
 // import Home from './components/Home';
 import Hero from './components/Hero';
 
@@ -15,7 +15,7 @@ function App() {
       <main>
         <Hero />
         <About />  
-        {/* <Cards /> */}
+        <Card />
       </main>
     </div>
   );

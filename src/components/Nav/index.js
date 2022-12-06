@@ -1,6 +1,6 @@
 import React from "react";
 // import { capitalizeFirstLetter } from "../../utils/helpers";
-import resume from '../../Assets/portfolio-resume.pdf'
+import resume from '../../assets/portfolio-resume.pdf'
 
 function Nav() {
   return (

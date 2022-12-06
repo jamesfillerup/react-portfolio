@@ -1,6 +1,6 @@
 import React from 'react'
-// import coverImage from "../../assets/cover/cover-image.jpg";
-import pflImg from '../../Assets/images/profile-img.png'
+// import coverImage from "../public/assets/cover/cover-image.jpg";
+import pflImg from '../../assets/images/profile-img.png'
 function About() {
 
   return (
